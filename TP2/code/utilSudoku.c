@@ -39,7 +39,7 @@ int ecrireSudoku(FILE *fich,int sudoku[9][9])
 
 int row[9];
 
-int* getRow(int sudoku[9][9], int ind){
+int *getRow(int sudoku[9][9], int ind){
 
 	for(int i = 0; i<9; i++){
 		row[i] = sudoku[i][ind];
@@ -51,7 +51,7 @@ int* getRow(int sudoku[9][9], int ind){
 
 int col[9];
 
-int* getCol(int sudoku[9][9], int ind){
+int *getCol(int sudoku[9][9], int ind){
 
 	for(int i = 0; i<9; i++){
 		col[i] = sudoku[ind][i];
@@ -63,7 +63,7 @@ int* getCol(int sudoku[9][9], int ind){
 
 int reg[9];
 
-int* getReg(int sudoku[9][9], int rowInd, int colInd){
+int *getReg(int sudoku[9][9], int rowInd, int colInd){
 
 //	fprintf(stdout, "-----\n");
 	int ind =0;
