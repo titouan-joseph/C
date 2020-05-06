@@ -21,4 +21,5 @@ tar: clean
 clean:
 	-rm -rf *~ *.out  *.o liste liste_corr
 
-
+cleanMS:
+	del *.o liste.exe
