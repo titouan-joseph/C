@@ -23,7 +23,7 @@ void afficherArbrePrefixe(ARBRE a, int offset) {
 		for (int i = 0; i < offset; i++)
 			printf("-");
 		printf("%d\n", a->val);
-		afficherArbrePrefixe(a->filsGauche, offset+2);
+		afficherArbrePrefixe(a->filsGauche, offset-2);
 		afficherArbrePrefixe(a->filsDroit, offset+2);
 	}
 }

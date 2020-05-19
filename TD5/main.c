@@ -17,5 +17,7 @@ int main() {
 	printf("%d\n", hauteurArbre(a));
 	printf("%d\n", hauteurArbre(d));
 
+    afficherArbrePrefixe(d,3);
+
 	return 0;
 }

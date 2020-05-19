@@ -1,0 +1,7 @@
+1. En C, on accede aux variables directements par les adresses memoires. Cellles si on une taille définie, on ne peut pas
+mettre de tableau dynamique a l'interrieur par exemple. Un pointeur, c'est un case memoire dans laquelle tu as l'adresse
+d'une autre case memoire qui te permet d'acceder a la premiere case du valeur dynamique.
+
+2. Le passage de paramtre par valeur en C, c'est les valeur passer en parametre qui sont que locale a ta fonction. Donc
+elle ne modifie pas la valuer que tu lui donne mais une copie de cette valeur. POur modifier une valeur passee en paramtre,
+il faut utiliser des pointeurs.
